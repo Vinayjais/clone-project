@@ -1,0 +1,418 @@
+body{
+    background: rgb(241, 240, 240);
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .navbar-brand{
+    padding-left: 25px;
+
+}
+
+.dropdown p{
+    
+    color: gray;
+    font-weight: 500px;
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.dropdown p:hover{
+    color: rgb(255, 153, 0);
+}
+.dropdown p a{
+    text-decoration: none;
+    color: gray;
+}
+.dropdown p a:hover{
+    color: rgb(250, 145, 8);
+}
+ .dropdown-menu li a{
+ color: gray;
+    font-weight: 700px;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+.dropdown-menu li a:hover{
+    color: rgb(252, 125, 7);
+}
+.banner{
+   
+    display: flex;
+   margin: 0;
+   padding: 0;
+   max-width: 100%;
+   background-color:rgb(248, 146, 12) ;
+   
+}
+.banner .inside1{
+
+    padding: 15px;
+    font-size: medium;
+    margin-top: 160px;
+    color: white;
+    min-width: 650px;
+    margin-left: 15px;
+    text-transform: uppercase;
+
+}
+.banner .inside1 h3{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.banner .inside1 p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 39px;
+
+}
+.banner .inside2 >img{
+    width: 685px;
+    height: 520px;
+}
+
+.banner2{
+    margin-top: 80px;
+}
+.banner2-inside h3{
+    font-size: 35px;
+    color: rgb(14, 175, 122);
+}
+.banner2 p{
+    color:rgb(248, 146, 12) ;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#arrow{
+  size: 40px;
+}
+.content{
+    margin-top: 50px;
+    border-top: 5px solid rgb(248, 146, 12);
+}
+.content .content1 h4{
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.content2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.content2-item2 img{
+    width: 550px;;
+    height: 310px;
+}
+.content2-item1 h4{
+    color: rgb(153, 8, 8);
+    font-size: 28px;
+}
+.content2 .content2-item1-list{
+    margin-top: 25px;
+}
+.content2 .content2-item1-list ul li{
+  text-decoration: none;
+  list-style: none;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: -40px
+  
+
+    
+}
+.content3{
+    margin-top: 40px;
+    padding: 25px;
+    background-color:rgb(252, 158, 35) ;
+}
+.content3 .list1 ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    text-transform: capitalize;
+    color: rgb(255, 254, 254);
+}
+.content3 .spaciaa{
+
+  margin-left: 20px;
+}
+.content4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border-bottom: 1px solid silver;
+    height: 600px;
+}
+.content4-item1{
+    margin-top: 50px;
+}
+.content4-item2 img{
+    width: 530px;
+    margin-left: 40px;
+}
+.content4-item1 .heading1{
+    font-family: 'Times New Roman', Times, serif;
+    border-left: 2px solid rgb(255, 146, 22);
+    font-size: 28px;
+    height: 50px;
+    padding: 12px;
+    padding-left: 15px;
+    color: brown;
+}
+.content4-item1 .heading2
+{
+    color: rgb(8, 184, 140);
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.content4-item1 .content4-item1-item{
+    margin-top: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.myitem{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.myitem .card1{
+    padding: 10px;
+    
+}
+.myitem .card1 img{
+    width: 250x;
+    height: 250px;
+    border-bottom: 5px solid rgb(248, 146, 12);
+}
+.myitem .card1 .card-inside{
+    border-left: 2px solid rgb(250, 145, 8);
+    margin-top: 15px;
+    padding: 10px;
+}
+.myitem .card1 .card-inside h4{
+    color: rgb(2, 141, 118);
+    margin-left: 12px;
+    font-size: 20x;
+}
+.myitem .card1 .card-inside p{
+    margin-left: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.asset ul{
+    display: flex ;
+    justify-content: space-between;
+    background-color:rgb(2, 141, 118) ;
+    height: 80px;
+    padding: 28px;
+    list-style: none;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    
+
+    
+}
+.asset ul li a{
+    color:rgb(187, 65, 60);
+    text-decoration: none;
+    background-color: white;
+   padding: 10px;
+   border-radius: 5px;
+   
+}
+.asset2{
+    border-top: 5px solid rgb(252, 125, 7);
+    border-bottom: 5px solid rgb(3, 170, 134);
+
+}
+.asset2 .container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.asset2 .container .asset2-1 .headingA{
+     border-bottom: 1px solid gray;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.asset2 .container .asset2-1 .buttonsA ul li a{
+    text-decoration: none;
+    color: brown;
+    border: 1px solid brown;
+    padding: 9px;
+    font-weight: 500;
+    border-radius: 3px;
+    background-color: white;
+    
+   
+}
+.asset2 .container .asset2-1 .buttonsA ul li a:hover{
+    background-color: rgb(252, 143, 41);
+    color: white;
+    border:none;
+    box-shadow: 1px 1px 2px 2px rgb(116, 189, 202);
+}
+.asset2 .container .asset2-1 .buttonsA ul{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: -40px;
+    
+        
+    
+}
+.asset2 .container .asset2-1 .buttonsA ul li{
+    padding: 12px;
+    
+
+}
+.asset2 .container .asset2-1 .buttonsA ul .u{
+    display: flex;
+    
+}
+.myg ul li a img{
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.myg ul li {
+    list-style: none;
+}
+.myg .subTitle h3{
+    text-transform: uppercase;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 17px;
+    margin-bottom: 0px;
+}
+.myg{
+    margin-bottom: 80px;
+}
+.awards{
+   background-color: white;
+}
+.awards-c{
+    border-bottom: 3px solid #ff9011;
+}
+.awards-c .awards-e ul li a{
+    text-decoration: none;
+    
+}
+.awards-c .awards-e ul li a p{
+    margin-top: 15px;
+    color: gray;
+}
+.awards-c .awards-e ul li a p:hover{
+     color: rgb(248, 146, 12);
+}
+.awards-c .awards-d{
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    padding-top: 40px;
+}
+.awards-c .awards-e ul li img{
+   width: 95% ;
+   height: 60%;
+}
+.awards-c .awards-e ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.awards-s .awards-a ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.as-se{
+   
+     border-bottom: 3px sid rgb(248, 146, 12);
+     height: 250px;
+     padding: 50px;
+    
+}
+.brr{
+    width: 100%;
+    height: 3px;
+    background-color: #ff9011;
+}
+.end{
+    border-bottom: #ff9011 3px solid;
+    margin-bottom: 100px;
+}
+.end .end-box{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.end .end-box .end-1{
+    background-color: rgb(235, 235, 235);
+    padding: 15px;
+    padding-top: 30px;
+    padding-left: 25px;
+    font-weight: 400;
+
+}
+.end .end-heading{
+    margin-top: 40px;
+    padding-left: 70px;
+    text-transform: uppercase;
+}
+.btna{
+    background-color: #ff9011;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 20px;
+
+}
+.endup .endup-1 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: white;
+    
+}
+.endup .endup-1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.endup .endup-1 ul a{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.endup .endup-1 ul a:hover{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(255, 151, 53);
+    font-weight: 600;
+}
+.fend{
+    background-color: black;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Document_files/index.css">
+
+    <title>Document</title>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1087.0" data-gr-ext-installed="">
+
+    <div class="container_flued">
+        <div class="header">Sorting Visualizer</div>
+        <div class="container"><button id="bom" class="btn" onclick="BubbleSOrt(), disable() ">BubbleSort</button>
+            <button class="btn" onclick="SelectionSort()">SelectionSort</button>
+            <button class="btn" onclick="SelectionSort()">InsertionSort</button>
+            <button class="btn" onclick="SelectionSort()">QuickSort</button>
+            <button class="btn" onclick="SelectionSort()">MergeSort</button>
+            <button class="btn" onclick="SelectionSort()">CountingSort</button>
+            <button class="btn" onclick="SelectionSort()">RedixSort</button>
+            <button class="btn" onclick="SelectionSort()">BucketSort</button>
+            <button class="btn" onclick="SelectionSort()">CombSort</button>
+            <button class="btn" onclick="SelectionSort()">ShellSort</button>
+
+        </div>
+    </div>
+
+
+    <div id="array"><div class="block" style="height: 25px; background-color: green;"><lable class="block_id">5</lable></div><div class="block" style="height: 45px; background-color: green;"><lable class="block_id">9</lable></div><div class="block" style="height: 55px; background-color: green;"><lable class="block_id">11</lable></div><div class="block" style="height: 85px; background-color: green;"><lable class="block_id">17</lable></div><div class="block" style="height: 100px; background-color: green;"><lable class="block_id">20</lable></div><div class="block" style="height: 140px; background-color: green;"><lable class="block_id">28</lable></div><div class="block" style="height: 195px; background-color: green;"><lable class="block_id">39</lable></div><div class="block" style="height: 230px; background-color: green;"><lable class="block_id">46</lable></div><div class="block" style="height: 265px; background-color: green;"><lable class="block_id">53</lable></div><div class="block" style="height: 280px; background-color: green;"><lable class="block_id">56</lable></div><div class="block" style="height: 305px; background-color: green;"><lable class="block_id">61</lable></div><div class="block" style="height: 315px; background-color: green;"><lable class="block_id">63</lable></div><div class="block" style="height: 345px; background-color: green;"><lable class="block_id">69</lable></div><div class="block" style="height: 345px; background-color: green;"><lable class="block_id">69</lable></div><div class="block" style="height: 365px; background-color: green;"><lable class="block_id">73</lable></div><div class="block" style="height: 370px; background-color: green;"><lable class="block_id">74</lable></div><div class="block" style="height: 405px; background-color: green;"><lable class="block_id">81</lable></div><div class="block" style="height: 455px; background-color: green;"><lable class="block_id">91</lable></div><div class="block" style="height: 490px; background-color: green;"><lable class="block_id">98</lable></div><div class="block" style="height: 495px; background-color: green;"><lable class="block_id">99</lable></div></div>
+    <div id="count"> suranjan</div>
+    <script src="./Document_files/script.js.download">  </script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
